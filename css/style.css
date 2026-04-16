@@ -11,6 +11,8 @@ body{
     font-family: "Roboto", sans-serif;
 }
 
+
+
 .header-logo{
 color: #000;
 font-family: Raleway;
@@ -19,10 +21,11 @@ font-style: normal;
 font-weight: 700;
 line-height: 1.19;
 letter-spacing: 0.78px;
+text-decoration: none;
 
 }
 
-.header-item:hover{
+.header-item{
     color: #212121;
 font-family: Roboto;
 font-size: 14px;
@@ -34,7 +37,7 @@ text-decoration: none;
 }
 
 .hero-title{
-    lex-shrink: 0;
+   
 
 text-align: center;
 font-family: Roboto;
@@ -85,6 +88,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.28px;
+text-decoration: none;
 }
 
 .main-item:hover{
@@ -96,5 +100,54 @@ font-style: normal;
 font-weight: 500;
 line-height: 1.62;
 letter-spacing: 0.48px;
+}
+
+.header-items{
+    color: #212121;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+text-decoration: none;
+
+}
+
+
+.header-contact a {
+    color: #757575;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+text-decoration: none;
+
+}
+
+.header-contact a:hover{
+    color: #2196F3;
+}
+
+.main-button{
+    color: #FFF;
+    background-color: #2196F3;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.96px;
+border-radius: 5px;
+padding: 10px 30px;
+
+
+}
+
+.header-items:hover{
+    color: #2196F3;
 }
 
