@@ -13,8 +13,8 @@ body{
 
 
 
-.header-logo{
-color: #000;
+.header-logo {
+color: var(--logo-color);
 font-family: Raleway;
 font-size: 26px;
 font-style: normal;
@@ -25,8 +25,8 @@ text-decoration: none;
 
 }
 
-.header-item{
-    color: #212121;
+.header-item {
+    color: var(--logo-color);
 font-family: Roboto;
 font-size: 14px;
 font-style: normal;
@@ -38,7 +38,7 @@ text-decoration: none;
 
 .hero-title{
    
-
+color: var(--mainulfon-color);
 text-align: center;
 font-family: Roboto;
 font-size: 44px;
@@ -49,8 +49,8 @@ letter-spacing: 2.64px;
 text-transform: uppercase;
 }
 
-.hero-text{
-    color: #757575;
+.team-caption{
+    color: var(--mainli-color);
 font-family: Roboto;
 font-size: 14px;
 font-style: normal;
@@ -60,7 +60,7 @@ letter-spacing: 0.42px;
 }
 
 .hero-zag:hover{
-    color: #212121;
+    color: var(--mainli-color);
 font-family: Roboto;
 font-size: 14px;
 font-style: normal;
@@ -71,7 +71,7 @@ text-transform: uppercase;
 }
 
 .footer-items:hover{
-    color: #FFF;
+    color: var(--footer-color);
 font-family: Roboto;
 font-size: 14px;
 font-style: normal;
@@ -81,7 +81,7 @@ letter-spacing: 0.42px;
 
 }
 .header-items:hover{
-color: #212121;
+color: var(--mainul-color);
 font-family: Roboto;
 font-size: 14px;
 font-style: normal;
@@ -92,7 +92,7 @@ text-decoration: none;
 }
 
 .main-item:hover{
-    color: #212121;
+    color: var(--mainul-color);
 
 font-family: Roboto;
 font-size: 16px;
@@ -103,7 +103,7 @@ letter-spacing: 0.48px;
 }
 
 .header-items{
-    color: #212121;
+    color: var(--mainul-color);
 font-family: Roboto;
 font-size: 14px;
 font-style: normal;
@@ -112,11 +112,12 @@ line-height: normal;
 letter-spacing: 0.28px;
 text-decoration: none;
 
+
 }
 
 
 .header-contact a {
-    color: #757575;
+    color: var(--mainli-color);
 font-family: Roboto;
 font-size: 14px;
 font-style: normal;
@@ -128,12 +129,12 @@ text-decoration: none;
 }
 
 .header-contact a:hover{
-    color: #2196F3;
+    color: var(--header-color);
 }
 
 .main-button{
-    color: #FFF;
-    background-color: #2196F3;
+    color: var(--footer-color);
+    background-color: var(--header-color);
 text-align: center;
 font-family: Roboto;
 font-size: 16px;
@@ -148,6 +149,26 @@ padding: 10px 30px;
 }
 
 .header-items:hover{
-    color: #2196F3;
+    color: var(--header-color);
 }
+
+a{
+    color: var(--mainul-color);
+    text-decoration: none;
+}
+a:hover{
+    color: var(--header-color);
+}
+
+
+p {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--mainli-color);
+    margin: 0;
+}
+
+
+
 
