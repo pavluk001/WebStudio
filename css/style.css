@@ -8,14 +8,15 @@
 }
 
 body{
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif; 
 }
+
 
 
 
 .header-logo {
 color: var(--header-color);
-font-family: Raleway;
+font-family: "Raleway" sans-serif;
 font-size: 26px;
 font-style: normal;
 font-weight: 700;
@@ -27,7 +28,6 @@ text-decoration: none;
 
 .header-item {
     color: var(--logo-color);
-font-family: Roboto;
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
@@ -40,7 +40,6 @@ text-decoration: none;
    
 color: var(--mainulfon-color);
 text-align: center;
-font-family: Roboto;
 font-size: 44px;
 font-style: normal;
 font-weight: 900;
@@ -51,7 +50,6 @@ text-transform: uppercase;
 
 .team-caption{
     color: var(--mainli-color);
-font-family: Roboto;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
@@ -61,7 +59,6 @@ letter-spacing: 0.42px;
 
 .hero-zag:hover{
     color: var(--mainli-color);
-font-family: Roboto;
 font-size: 14px;
 font-style: normal;
 font-weight: 700;
@@ -72,7 +69,6 @@ text-transform: uppercase;
 
 .footer-items:hover{
     color: var(--footer-color);
-font-family: Roboto;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
@@ -80,21 +76,9 @@ line-height: 1.71;
 letter-spacing: 0.42px;
 
 }
-.header-items:hover{
-color: var(--mainul-color);
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: 1.14;
-letter-spacing: 0.28px;
-text-decoration: none;
-}
 
 .main-item:hover{
     color: var(--mainul-color);
-
-font-family: Roboto;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
@@ -102,23 +86,22 @@ line-height: 1.62;
 letter-spacing: 0.48px;
 }
 
-.header-items{
-    color: var(--mainul-color);
-font-family: Roboto;
+
+.header-detales{
+color: var(--mainul-color);
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 0.28px;
-text-decoration: none;
 
 
 }
 
 
+
 .header-contact a {
     color: var(--mainli-color);
-font-family: Roboto;
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
@@ -136,7 +119,6 @@ text-decoration: none;
     color: var(--footer-color);
     background-color: var(--header-color);
 text-align: center;
-font-family: Roboto;
 font-size: 16px;
 font-style: normal;
 font-weight: 700;
@@ -148,9 +130,7 @@ padding: 10px 30px;
 
 }
 
-.header-items:hover{
-    color: var(--header-color);
-}
+
 
 a{
     color: var(--mainul-color);
@@ -161,16 +141,10 @@ a:hover{
 }
 
 
-p {
-    font-family: Roboto, sans-serif;
-    font-size: 14px;
-    line-height: 1.71;
-    color: var(--mainli-color);
-    margin: 0;
-}
+
 
 .span{
-    color: #000;
+    color: var(--logo-color);
 font-family: Raleway;
 font-size: 26px;
 font-style: normal;
@@ -194,3 +168,125 @@ letter-spacing: 0.78px;
 .footer-span{
     color: var(--header-color);
 }
+
+
+
+.header-detales{
+    color: var(--mainul-color);
+
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+
+.title{
+    color: var(--mainul-color);
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+
+}
+
+
+.header-items:hover{
+     color: var(--header-color); 
+    }
+
+
+    .hero-text{
+        color: var(--mainli-color);
+
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
+    }
+
+    .work-title{
+        color:var(--mainul-color);
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+    }
+
+    .team-title{
+        color:var(--mainul-color);
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+ }
+
+ .main-person{
+    color: var(--mainul-color);
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.48px;
+
+ }
+
+
+.adventages-list{
+    color: var(--header-color);
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+
+}
+
+.main-item{
+    color:var(--mainul-color);
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0.48px;
+
+}
+
+.main-caption{
+    color: var(--mainul-color);
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 1.08px;
+
+}
+
+.main-text{
+    color: var(--mainli-color);
+
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.48px;
+
+}
+
+.footer-link{
+    color: var(--footer-color);
+
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
+
+}
+
