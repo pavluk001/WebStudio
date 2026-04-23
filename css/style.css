@@ -14,17 +14,7 @@ body{
 
 
 
-.header-logo {
-color: var(--header-color);
-font-family: "Raleway" sans-serif;
-font-size: 26px;
-font-style: normal;
-font-weight: 700;
-line-height: 1.19;
-letter-spacing: 0.78px;
-text-decoration: none;
 
-}
 
 .header-item {
     color: var(--logo-color);
@@ -143,16 +133,7 @@ a:hover{
 
 
 
-.span{
-    color: var(--logo-color);
-font-family: Raleway;
-font-size: 26px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.78px;
 
-}
 
 .footer-logo{
     color: #000;
@@ -165,9 +146,7 @@ letter-spacing: 0.78px;
 }
 
 
-.footer-span{
-    color: var(--header-color);
-}
+
 
 
 
@@ -290,3 +269,26 @@ letter-spacing: 0.42px;
 
 }
 
+.logo {
+color: var(--header-color);
+font-family: "Raleway" sans-serif;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.19;
+letter-spacing: 0.78px;
+text-decoration: none;
+
+}
+
+
+.logo-part{
+    color: var(--logo-color);
+font-family: Raleway;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
+
+}
