@@ -5,6 +5,7 @@
 --mainli-color:#757575;
 --footer-color:#FFFFFF;
 --logo-color:#000;
+--footer-text-color: rgba(255, 255, 255, 0.6);
 }
 
 body{
@@ -47,15 +48,6 @@ line-height: 1.71;
 letter-spacing: 0.42px;
 }
 
-.hero-zag:hover{
-    color: var(--mainli-color);
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: 1.71;
-letter-spacing: 0.42px;
-text-transform: uppercase;
-}
 
 .footer-items:hover{
     color: var(--footer-color);
@@ -150,16 +142,6 @@ letter-spacing: 0.78px;
 
 
 
-.header-detales{
-    color: var(--mainul-color);
-
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.42px;
-text-transform: uppercase;
-}
 
 .title{
     color: var(--mainul-color);
@@ -216,9 +198,9 @@ letter-spacing: 0.48px;
 
  }
 
-
 .adventages-list{
-    color: var(--header-color);
+color: var(--mainli-color);
+font-family: Roboto;
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
@@ -260,7 +242,7 @@ letter-spacing: 0.48px;
 
 .footer-link{
     color: var(--footer-color);
-
+font-family: Roboto;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
@@ -291,4 +273,28 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 0.78px;
 
+}
+
+
+footer{
+    background-color: grey;
+}
+
+
+.footer-mail{
+   color: var(--footer-text-color);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
+}
+
+.footer-number{
+    color: var(--footer-text-color);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
 }
