@@ -103,6 +103,9 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.71;
 letter-spacing: 0.42px;
+text-align: center;
+padding-top: 10px;
+
 }
 
 
@@ -246,12 +249,14 @@ letter-spacing: 0.28px;
 
     .hero-text{
         color: var(--mainli-color);
-
+padding-top: 10px;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.42px;
+padding-right: 30px;
+
     }
 
     .work-title{
@@ -261,7 +266,13 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 1.08px;
+text-align: center;
+padding-bottom: 50px;
     }
+
+
+
+
 
     .team-title{
         color:var(--mainul-color);
@@ -270,7 +281,19 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 letter-spacing: 1.08px;
+   text-align: center;
+   padding-bottom: 50px;
  }
+
+.team{
+     padding-top: 188px;
+    padding-bottom: 50px;
+}
+
+
+
+
+
 
  .main-person{
     color: var(--mainul-color);
@@ -279,7 +302,8 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 0.48px;
-
+text-align: center;
+padding-top: 30px;
  }
 
 
@@ -362,6 +386,8 @@ letter-spacing: 0.42px;
     width: 1200px;
     margin: 0 auto;
     outline: 1px solid red;
+    padding: 12px;
+    padding-right: ;
 }
 
 .header{
@@ -416,27 +442,23 @@ letter-spacing: 0.42px;
 }
 
 
-.work-title{
-  text-align: center;
-}
-
 .work-list{
     display: flex;
 justify-content: center;
-
+gap: 30px;
 }
+
+
+
+
 
 .work-item{
-    margin-left: 30px;
-
-
+    margin-left: 0;
+width: 370px;
+height: 294px;
 }
 
-.team-title{
-    text-align: center;
-    padding-top: 50px;
-    padding-top: 188px;
-}
+
 
 .team-list{
     display: flex;
@@ -444,13 +466,17 @@ justify-content: center;
     gap: 30px;
 }
 
-.footer{
-    padding-left: 215px;
-}
+
 
 .footer-items{
     padding-top: 9px;
 }
 
+
+.work{
+    padding-top: 94px;
+    padding-bottom: 94px;
+    
+}
 
 
