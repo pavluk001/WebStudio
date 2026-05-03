@@ -286,8 +286,7 @@ letter-spacing: 1.08px;
  }
 
 .team{
-     padding-top: 188px;
-    padding-bottom: 50px;
+    padding: 94px;
 }
 
 
@@ -387,7 +386,6 @@ letter-spacing: 0.42px;
     margin: 0 auto;
     outline: 1px solid red;
     padding: 12px;
-    padding-right: ;
 }
 
 .header{
@@ -474,9 +472,7 @@ height: 294px;
 
 
 .work{
-    padding-top: 94px;
-    padding-bottom: 94px;
-    
+    padding: 94px 0;
 }
 
 
