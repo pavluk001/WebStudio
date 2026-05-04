@@ -72,12 +72,14 @@ gap: 30px;
 
 
 .adventages-listes{
-padding-top: 94px;
-display: flex;
-padding-bottom: 94px;
+    gap: 30px;
+display: flex
 }
 
-
+.adventages{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 
 .hero-title{
@@ -104,7 +106,7 @@ font-weight: 400;
 line-height: 1.71;
 letter-spacing: 0.42px;
 text-align: center;
-padding-top: 10px;
+margin-top: 10px;
 
 }
 
@@ -134,7 +136,7 @@ color: var(--mainul-color);
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
-line-height: normal;
+line-height: 1.14;
 letter-spacing: 0.28px;
 
 
@@ -155,7 +157,7 @@ letter-spacing: 0.28px;
 font-size: 14px;
 font-style: normal;
 font-weight: 500;
-line-height: normal;
+line-height: 1.14;
 letter-spacing: 0.28px;
 text-decoration: none;
 
@@ -172,7 +174,7 @@ text-align: center;
 font-size: 16px;
 font-style: normal;
 font-weight: 700;
-line-height: 30px;
+line-height: 1.87;
 letter-spacing: 0.96px;
 border-radius: 5px;
 padding: 10px 30px;
@@ -267,7 +269,7 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 1.08px;
 text-align: center;
-padding-bottom: 50px;
+margin-bottom: 50px;
     }
 
 
@@ -282,11 +284,13 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 1.08px;
    text-align: center;
-   padding-bottom: 50px;
+   margin-bottom: 50px;
  }
 
 .team{
-    padding: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+background-color: var(--mainulfon-color);
 }
 
 
@@ -302,7 +306,6 @@ font-weight: 500;
 line-height: normal;
 letter-spacing: 0.48px;
 text-align: center;
-padding-top: 30px;
  }
 
 
@@ -383,9 +386,10 @@ letter-spacing: 0.42px;
 
 .container{
     width: 1200px;
-    margin: 0 auto;
+ margin: 0 auto;
     outline: 1px solid red;
-    padding: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .header{
@@ -467,7 +471,7 @@ height: 294px;
 
 
 .footer-items{
-    padding-top: 9px;
+   margin-top: 9px;
 }
 
 
@@ -475,4 +479,8 @@ height: 294px;
     padding: 94px 0;
 }
 
+
+.logo-part :hover{
+    color: var(--footer-color);
+}
 
